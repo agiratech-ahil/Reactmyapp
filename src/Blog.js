@@ -1,7 +1,7 @@
 function Blog(props) {
   return (
     <div className="box">
-      <h2 className="header">{props.posts.name}</h2>
+      <h2 className="header">{props.posts.title}</h2>
       <p className="dis">{props.posts.dis}</p>
       <ul>
         {props.posts.features.map((feature, i) => {
